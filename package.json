@@ -1,0 +1,25 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "description": "node js, react",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio63963/e-shop.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "react",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio63963/e-shop/issues"
+  },
+  "homepage": "https://github.com/antonio63963/e-shop#readme"
+}
