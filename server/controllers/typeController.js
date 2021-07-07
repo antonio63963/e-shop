@@ -10,7 +10,7 @@ class TypeController {
   }
 
   async getAll(req, res) {
-    const a = await req.body;
+
   }
   
 }

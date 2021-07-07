@@ -4,12 +4,14 @@ const PORT = process.env.PORT || 5000;
 const sequelize = require('./db');
 const cors = require('cors')
 const models = require('./models/models');
-const router = require('./routes')
+const router = require('./routes');
+const fileUpload = require('express-fileupload');
 
 
 const server = express();
 server.use(cors());
 server.use(express.json());
+server.use(fileUpload(), {});
 server.use('/api', router)
 
 const start = async () => {
