@@ -1,4 +1,4 @@
-const { Type } = rquire('../models/models');
+const { Type } = require('../models/models');
 const apiError = require('../error/apiError');
 
 class TypeController {

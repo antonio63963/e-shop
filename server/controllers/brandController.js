@@ -1,12 +1,12 @@
-const { Brand } = rquire('../models/models');
+const { Brand } = require('../models/models');
 const apiError = require('../error/apiError');
 
 class BrandController {
 
   async create(req, res) {
     const { name } = req.body;
-    const brand = await Type.create({name});
-    res.json(type)
+    const brand = await Brand.create({name});
+    res.json(brand)
   }
 
   async getAll(req, res) {

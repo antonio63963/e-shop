@@ -11,7 +11,7 @@ const fileUpload = require('express-fileupload');
 const server = express();
 server.use(cors());
 server.use(express.json());
-server.use(fileUpload(), {});
+server.use(fileUpload({}));
 server.use('/api', router)
 
 const start = async () => {

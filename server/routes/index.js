@@ -4,13 +4,13 @@ const deveceRouter = require('./deviceRouter');
 const userRouter = require('./userRouter');
 const brandRouter = require('./brandRouter');
 const typeRouter = require('./typeRouter');
-const mainRouter = require('./mainRouter');
+
 
 router.use('/user', userRouter);
 router.use('/type', typeRouter);
 router.use('/brand', brandRouter);
 router.use('/device', deveceRouter);
-router.use('/', mainRouter)
+
 
 
 module.exports = router;
